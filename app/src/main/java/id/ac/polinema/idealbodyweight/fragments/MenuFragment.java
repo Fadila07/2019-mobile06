@@ -47,7 +47,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 if (mListener != null) {
-                    mListener.onBrocaIndexButtonClicked();
+                    mListener.onBodyMassIndexButtonClicked();
                 }
             }
         });
